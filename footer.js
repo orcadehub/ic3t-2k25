@@ -8,7 +8,7 @@ document.getElementById('footer').innerHTML = `
         </p>
         <div>
           <span style="color: #f0c38e;">Mail to :</span>
-          <span class="lead">ic3t.mbu2025@gmail.com</span>
+          <span class="lead">ic3t2025.mbu@gmail.com</span>
         </div>
       </div>
     </div>
