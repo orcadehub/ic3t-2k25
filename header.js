@@ -1,4 +1,4 @@
-document.getElementById('header').innerHTML = `
+document.getElementById("header").innerHTML = `
   <div class="sticky-top">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
       <div class="container-fluid">
@@ -28,14 +28,7 @@ document.getElementById('header').innerHTML = `
         <div class="collapse navbar-collapse bg-dark" id="navbarNav">
           <ul class="navbar-nav d-flex justify-content-evenly align-items-center w-100 flex-column flex-lg-row py-2">
             <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle text-white"
-                href="#"
-                id="about-dropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
+              <a class="nav-link dropdown-toggle text-white" href="#" id="about-dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 About
               </a>
               <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="about-dropdown">
@@ -44,6 +37,7 @@ document.getElementById('header').innerHTML = `
                 <li><a class="dropdown-item" href="#about-conf">About Conference</a></li>
               </ul>
             </li>
+
             <li class="nav-item"><a href="callforpapers.html" class="nav-link text-white">Call For Papers</a></li>
             <li class="nav-item"><a href="submissions.html" class="nav-link text-white">Submit Paper</a></li>
             <li class="nav-item"><a href="publication.html" class="nav-link text-white">Publication</a></li>
@@ -58,4 +52,26 @@ document.getElementById('header').innerHTML = `
       </div>
     </nav>
   </div>
+
+  <!-- 🔻 ONE SINGLE MARQUEE WITH REPEATED CONTENT -->
+    <!-- 🔻 ONE SINGLE MARQUEE WITH REPEATED PAPER PRESENTATION ONLY -->
+  <marquee behavior="scroll" direction="left" class="bg-warning text-dark py-2 fw-bold">
+
+    📢 Paper Presentation Schedule is going on —
+     <a href="IC3T 2025- Presentation Schedule.docx" class="btn btn-sm btn-dark ms-2 me-4">Click Here</a>
+
+    📢 Paper Presentation Schedule is going on —
+     <a href="IC3T 2025- Presentation Schedule.docx" class="btn btn-sm btn-dark ms-2 me-4">Click Here</a>
+
+    📢 Paper Presentation Schedule is going on —
+   <a href="IC3T 2025- Presentation Schedule.docx" class="btn btn-sm btn-dark ms-2 me-4">Click Here</a>
+
+    📢 Paper Presentation Schedule is going on —
+     <a href="IC3T 2025- Presentation Schedule.docx" class="btn btn-sm btn-dark ms-2 me-4">Click Here</a>
+
+    📢 Paper Presentation Schedule is going on —
+    <a href="IC3T 2025- Presentation Schedule.docx" class="btn btn-sm btn-dark ms-2 me-4">Click Here</a>
+
+  </marquee>
+
 `;
